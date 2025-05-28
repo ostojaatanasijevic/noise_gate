@@ -1,0 +1,140 @@
+(footprint "TI logo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "da461175-24f5-4421-a662-b7d5f436ab8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TI logo"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "96e779f2-1789-4c20-9d81-14e233b8f884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b3122d7-0358-424e-b185-4fef0b0c4966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -5.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04646682-009b-48b9-940f-dc7be41c842d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.6 -1.6)
+		(end 1.6 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dcd2109c-3950-4cc8-a5e4-6e051c679efb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "83353e16-5fb2-4a96-ae90-36d7e74c1b8f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.9 1.9) (xy -0.9 -1.2) (xy -0.4 -1.2) (xy -0.4 1.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "46c1c27b-0dfa-46e3-93b8-2ee1cda684f2")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 -0.2) (xy 0.9 -0.5) (xy 0.9 -1.3) (xy 0.4 -1.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "534f134a-ac4a-45e3-acc1-1a0ed78cff80")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 1.9) (xy 0.4 0.1) (xy 0.9 -0.2) (xy 0.9 1.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "caf2e92c-f47e-4152-b739-ab3c3902e454")
+	)
+	(fp_rect
+		(start -3.4 -3.3)
+		(end 3.4 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2281dd5-c354-454a-9a23-0cd5dc888f33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f3971731-55e9-4de9-8d13-f23e28985e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

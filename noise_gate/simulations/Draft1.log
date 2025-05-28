@@ -1,0 +1,22 @@
+Circuit: * C:\users\ostoja\Desktop\Elektronika\pedale\big_muff_pi\big_muff_pi\simulations\Draft1.asc
+
+WARNING: Less than two connections to node N007.  This node is used by V1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon May 12 11:49:49 2025
+Total elapsed time: 0.721 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1164593
+traniter = 1164590
+tranpoints = 582296
+accept = 467968
+rejected = 114328
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 292 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 552 bytes object code size  0.1/0.1/[0.1]
+
