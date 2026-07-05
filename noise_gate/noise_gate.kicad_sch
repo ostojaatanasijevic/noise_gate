@@ -9048,6 +9048,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 55.88) (xy 332.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64695c1f-8455-4d78-aa39-bbd6710e69cd")
+	)
+	(wire
+		(pts
 			(xy 163.83 135.89) (xy 163.83 132.08)
 		)
 		(stroke
@@ -9365,16 +9375,6 @@
 			(type default)
 		)
 		(uuid "7f321d74-876a-488b-b52b-902453a7cea1")
-	)
-	(wire
-		(pts
-			(xy 332.74 55.88) (xy 328.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8026ebcb-fc6a-4c1b-aaa7-93df512d7313")
 	)
 	(wire
 		(pts
@@ -10355,6 +10355,16 @@
 			(type default)
 		)
 		(uuid "f65d32ab-c9d7-44ea-8514-f2900f255785")
+	)
+	(wire
+		(pts
+			(xy 322.58 55.88) (xy 321.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cf844e-ff4c-456f-85b2-1f4a1387ce2d")
 	)
 	(wire
 		(pts
@@ -11829,7 +11839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 77.47 218.44 0)
 			(effects
 				(font
@@ -14754,7 +14764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -16636,82 +16646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 49.53 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80251d9d-1481-4665-b23f-57c526196762")
-		(property "Reference" "C7"
-			(at 49.53 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 49.53 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 53.34 70.1548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 49.53 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfaddc2f-03e3-42fa-8e7b-5d2594fe0a4e")
-		)
-		(pin "2"
-			(uuid "5ae24958-0588-4c6d-940e-6f3677fd6283")
-		)
-		(instances
-			(project "noise_gate"
-				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 179.07 140.97 0)
 		(unit 1)
@@ -17798,7 +17732,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 325.12 55.88 0)
+		(at 326.39 55.88 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17807,7 +17741,7 @@
 		(dnp no)
 		(uuid "a3e0af7a-f719-47a2-a624-77528e519f87")
 		(property "Reference" "D3"
-			(at 330.2 58.42 0)
+			(at 331.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17816,7 +17750,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 330.2 60.96 0)
+			(at 331.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17825,7 +17759,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 325.12 51.435 0)
+			(at 326.39 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17834,7 +17768,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17843,7 +17777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17851,7 +17785,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17860,7 +17794,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17869,7 +17803,7 @@
 			)
 		)
 		(property "Sim.Library" "/home/ostoja/spice_models/diode/1N4148.lib"
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17878,7 +17812,7 @@
 			)
 		)
 		(property "Sim.Name" "1N4148"
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17887,7 +17821,7 @@
 			)
 		)
 		(property "LCSC" "C2128"
-			(at 325.12 55.88 0)
+			(at 326.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20742,7 +20676,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f012d01d-4b5f-400c-96d3-e2f95a5a40fd")
 		(property "Reference" "#GND016"
 			(at 73.66 280.67 0)
@@ -20825,7 +20758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 82.55 49.53 0)
 			(effects
 				(font

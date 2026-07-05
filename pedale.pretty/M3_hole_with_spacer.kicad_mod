@@ -108,7 +108,7 @@
 		(uuid "4063bd6d-877c-483d-b57f-aa4d6bdb278b")
 	)
 	(embedded_fonts no)
-	(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
+	(model "/home/jecka/Documents/pedale/noise_gate/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
 		(offset
 			(xyz 0 0 12)
 		)
