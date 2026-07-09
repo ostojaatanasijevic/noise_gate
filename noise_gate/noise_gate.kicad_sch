@@ -9798,6 +9798,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 212.09) (xy 87.63 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07edbfa-ae54-4af8-8d93-cca85a6583c4")
+	)
+	(wire
+		(pts
 			(xy 149.86 35.56) (xy 152.4 35.56)
 		)
 		(stroke
@@ -10165,6 +10175,16 @@
 			(type default)
 		)
 		(uuid "def95323-aad5-4d66-9289-a2eabf3030fe")
+	)
+	(wire
+		(pts
+			(xy 87.63 219.71) (xy 87.63 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df17c894-3b51-4c29-8098-1a90a8dad4c0")
 	)
 	(wire
 		(pts
@@ -10677,6 +10697,28 @@
 		(uuid "3318893d-888a-4080-8562-fbaf9f2c8059")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.2376 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "9V"
+		(shape input)
+		(at 87.63 208.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35df83b6-5315-4f33-9644-f14cdc617d04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 203.0761 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13203,6 +13245,73 @@
 			(project ""
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "0_2")
+		(lib_id "Simulation_SPICE:0")
+		(at 87.63 228.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fa0999a-b585-4063-aa3a-80dea3ef619f")
+		(property "Reference" "#GND046"
+			(at 87.63 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 93.98 226.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77521bac-13c5-4e7b-8992-f8a22d822007")
+		)
+		(instances
+			(project "noise_gate"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "#GND046")
 					(unit 1)
 				)
 			)
@@ -20112,6 +20221,84 @@
 				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
 					(reference "J6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab7f3bb-3396-4188-936f-959cfdb04314")
+		(property "Reference" "C33"
+			(at 91.44 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 91.44 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.6648 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 87.63 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fce73bfc-a463-4a59-b61f-31971e34e524")
+		)
+		(pin "2"
+			(uuid "7c146f1e-6bb7-4ffe-8018-f0d0d98fd97e")
+		)
+		(instances
+			(project "noise_gate"
+				(path "/1fda0e48-ac05-4486-b24b-352a2425b266"
+					(reference "C33")
+					(unit 1)
 				)
 			)
 		)
