@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,red_led,1,LED,
+D2,green_led,1,LED,
+"H1, H11, H2, H3, H4",MountingHole_3.2mm_M3_DIN965_Pad_TopBottom,5,MountingHole_Pad,
+J1,IDC-Header_2x08_faux_SMD,1,top_panel_connector,
+"RV1, RV2, RV3",top_plate_pot,3,pot_gnd,
